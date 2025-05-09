@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 310eca569c603436bad59ba2cfa66422, type: 3}
+  m_Name: 13-Brian
+  m_EditorClassIdentifier: 
+  cardName: Brian
+  description: Teenagers aged 14 - 17 years need 8 - 10 hours of sleep per day.
+  prefab: {fileID: 8090934295256521601, guid: 2277b0ceb9cc54e24884c494d402bf76, type: 3}
+  artwork: {fileID: 21300000, guid: c9be957e88427412ba7cdc1f6fc581ab, type: 3}
+  cardType: 0
+  age: 16
+  ageText: 16 years old
+  requiredSleepHours: 8
+  currentSleepHours: 0
+  hourEffect: 0
+  positive: 0
+  ageRequired: 0
+  skillEffect: 0

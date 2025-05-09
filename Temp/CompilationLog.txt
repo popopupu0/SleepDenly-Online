@@ -1,0 +1,178 @@
+# Starting compiling UnityEngine.TestRunner.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4c4ae1003dd6a4e7197c11598e370061
+# Starting compiling UnityEngine.UI.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9f6fe5d54f9ad4ed3b674b5473c1ddf4
+# Starting compiling UnityEditor.TestRunner.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-8563ef59a08e1461080cc3b7abb9aeb3
+# Starting compiling UnityEditor.UI.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c1b2d7eb41a0142508ac5883ada69657
+# Starting compiling Unity.InternalAPIEngineBridge.001.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-cf43ae8720f6c4e9da002dca1e4d5f83
+# Starting compiling Unity.VSCode.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-6d5b393f3a65345ad898ccc303270aa9
+# Starting compiling Unity.2D.PixelPerfect.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-fe6a76d860ebe4aa4a8287c25fe8e2c0
+# Starting compiling Unity.2D.Tilemap.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-1613f87807f7d4a918c2e09bd96ba3dc
+# Starting compiling PsdPlugin.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-cb1ffb8a21cc2422ab30f9cd00f2434a
+# Starting compiling Unity.VisualStudio.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d28d02ef3d3fe41cb97abcb3771140ca
+# Starting compiling Unity.Timeline.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e38d91f9523f8434bb16b3d4759c4270
+# Starting compiling Unity.TextMeshPro.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c5aacd556a6a54d62be1b7504dab3d15
+# Starting compiling Unity.2D.Sprite.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-6ce4937df1dec4b3bba5c396ee32ea5b
+# Starting compiling Unity.2D.Path.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f46e69b170b9242c0b367b3cbb752738
+# Starting compiling Unity.Rider.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-d8fa2149a015c4c8c90b072840f7dc40
+# Starting compiling ParrelSync.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-37adcfe1c91ff4a00990fd0b85bd440c
+# Starting compiling Unity.2D.IK.Runtime.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-002a3d2fae4934dd3a91f120c855761e
+# Starting compiling Unity.Mathematics.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4cfcc02fbf7e448028edbfe13c793497
+# Starting compiling Unity.2D.Animation.Triangle.Runtime.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-87316d298df444227a61bf62ff07e664
+# Starting compiling Unity.TextMeshPro.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9409a607e3faf4c229f439d8b9fc5e14
+# Starting compiling Unity.2D.PixelPerfect.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-792e7ec06509149a9a1157ecc8759d7a
+# Starting compiling Unity.Timeline.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-eb8ed339055cf43c6b6b6480d9279462
+# Starting compiling Unity.CollabProxy.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a0a9768591969428dae6d64b487f2dad
+# Starting compiling Unity.2D.Common.Runtime.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f7eeec92e03bb46daae7db3feed275d4
+# Starting compiling Mirror.CompilerSymbols.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ab64b03a4f2bd4150a1697779d454a3a
+# Starting compiling Unity.InternalAPIEditorBridge.001.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-3154db3a27b894e7387d9ef0d223841b
+# Starting compiling Telepathy.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ab27032698cea4ff5a3c438e4adcac89
+# Starting compiling where-allocations.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e2c65a5f7ed2c47e7ba2a48aad504488
+# Starting compiling Unity.2D.Common.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-969180873544041bba563bacf123ae35
+# Starting compiling kcp2k.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-eae0491e731f14a3f84412c929ae9317
+# Starting compiling Unity.2D.Animation.Runtime.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f0e7511ab381d444b811ca4f11468a33
+# Starting compiling Unity.Mathematics.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9d8cd2cfeef0346ef9b4ffd740115d02
+# Starting compiling Unity.2D.SpriteShape.Runtime.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b11583226dfad4401bbcef101373b754
+# Starting compiling Mirror.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-0d4f8a9d351644439a08b2c126c95638
+# Starting compiling Unity.2D.Animation.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e06f507391eb34c68833c352924e1219
+# Starting compiling Unity.2D.SpriteShape.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-bfaa1203426c94e3698a04667e65ccbf
+# Starting compiling Unity.Mirror.CodeGen.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a0dcaeee530af444097a08b684a565ed
+# Starting compiling Mirror.Authenticators.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a25df1b7e44664ba299cf36205d86e9d
+# Starting compiling SimpleWebTransport.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ea9ac9d0bbb2a4951a63ddde566f2f03
+# Starting compiling Mirror.Components.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-19d550cf990b94063bb6e21ceb544a3e
+# Starting compiling Unity.2D.IK.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-835f0f94638244c538c1c84d8977349c
+# Starting compiling Unity.2D.Psdimporter.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ef937e4c5b2934ffdbcafdebb2df8fd3
+# Starting compiling Mirror.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-de1579f41e2e74effa582a92b295ce19
+# Starting compiling Mirror.Examples.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-754cb09a05b824c3bae333924aec58ad
+# Starting IL post processing on UnityEngine.TestRunner.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-1b283cfd694d64f1bbcadafea367b3af"
+# Starting IL post processing on UnityEngine.UI.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-c74d6b69c36b0498a96a0c847669fe16"
+# Starting IL post processing on UnityEditor.TestRunner.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-6f6bd3c288d8d45e9819ab70b0475034"
+# Starting IL post processing on UnityEditor.UI.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-8a2453cba48da478a93b502de77e0dec"
+# Starting IL post processing on Unity.InternalAPIEngineBridge.001.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-b2201672704054760bb4ec16e8a9c462"
+# Starting IL post processing on Unity.2D.PixelPerfect.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-e3f85286411d74e738e71d5fb8dffac4"
+# Starting IL post processing on Unity.VSCode.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-60276f71c38b040c39234567a1097da2"
+# Starting IL post processing on Unity.VisualStudio.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-3f9cefc81603543d38218204e36af414"
+# Starting compiling Assembly-CSharp.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-a326ac9fbf50544c994853c78bbd4c96
+# Starting IL post processing on Unity.2D.Tilemap.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-62aeaaf5db3f64f3ab1f662be03580e2"
+# Starting IL post processing on Unity.Timeline.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-6106de4f399d84d6180229c614dee67d"
+# Starting IL post processing on PsdPlugin.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-69e65971deb014aa58525cfc822bc916"
+# Starting IL post processing on Unity.Rider.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-122ec5b046efa405fa68bec366d7991a"
+# Starting IL post processing on Unity.2D.Path.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-e439e2e50e9e14cca8eb0f956c92e1ed"
+# Starting IL post processing on Unity.2D.Animation.Triangle.Runtime.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-2d101cc58ab694f08aca26a8a5063e5b"
+# Starting IL post processing on Unity.TextMeshPro.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-f9e7a3fca33c14a15ac0588de90667f6"
+# Starting IL post processing on ParrelSync.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-f5f4a1c0af4dd4fc3b440b0a6d221a0a"
+# Starting IL post processing on Unity.2D.IK.Runtime.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-b302c9603f5b34d8d98e763eba36957c"
+# Starting IL post processing on Unity.2D.Sprite.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-a1721a28b3ea3410da9ea6c53ef1c627"
+# Starting IL post processing on Mirror.CompilerSymbols.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-b38465a82e213462a8c42be1e5bc52dc"
+# Starting IL post processing on Unity.2D.Common.Runtime.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-67650f319cf57476c9dff4ee111b043a"
+# Starting IL post processing on Unity.2D.PixelPerfect.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-1e09cc050c970470ab3f8ff92da18df4"
+# Starting IL post processing on Unity.InternalAPIEditorBridge.001.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-f201bdcd18423415f90366c1a08e6f4b"
+# Starting IL post processing on Unity.TextMeshPro.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-560d97d94430648f9b63c32b5899737c"
+# Starting IL post processing on where-allocations.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-067da0c6f73dc4758a6b69824f579bb2"
+# Starting IL post processing on Unity.2D.Common.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-3b2eb4a74a1914306afd562cf7f3793c"
+# Starting IL post processing on Telepathy.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-4e264f91bc90d4b559ed19ae44c9d8b0"
+# Starting IL post processing on Unity.CollabProxy.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-706b6f49ce98e4a32aa4577e50d6ab18"
+# Starting IL post processing on Unity.Mathematics.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-d7a2944379d3c44579079c7ca7c1f7d5"
+# Starting IL post processing on Unity.Timeline.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-e73dfe4d0b0094968960654870bf15f9"
+# Starting IL post processing on Unity.Mathematics.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-ee136b2c269c14d69a76f5b25d859143"
+# Starting IL post processing on kcp2k.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-2fb0a0171ed0d499b824bb0c91a09af0"
+# Starting IL post processing on Unity.2D.Animation.Runtime.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-31ccdcc2559894c6aa31f2ce3a6db302"
+# Starting IL post processing on Unity.2D.SpriteShape.Runtime.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-a0f2f8256a0dd4355ad38422167a51d5"
+# Starting IL post processing on Unity.2D.SpriteShape.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-8e79b8814e9fc4c4587c4b02bd42c8c4"
+# Starting IL post processing on Mirror.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-594a7b04028944073acd3671f1f748a6"
+# Starting IL post processing on Unity.2D.Animation.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-64e45bf50dc864d40b9c6c00ea644457"
+# Starting IL post processing on Mirror.Authenticators.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-136a4cd6109b14250b60d883c65cfd60"
+# Starting IL post processing on Unity.2D.IK.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-f80d6a9c7735346a783012e9b86e649a"
+# Starting IL post processing on SimpleWebTransport.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-87d6d45037051448facee3fa3bfadd90"
+# Starting IL post processing on Mirror.Components.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-b6d470ced41d34a7ab2e077ad686705e"
+# Starting IL post processing on Unity.2D.Psdimporter.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-fa8ce1c43f292424cb99770da74995c4"
+# Starting IL post processing on Mirror.Examples.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-0ecb6e67f4a284c7dabdb2e1f4066669"
+# Starting IL post processing on Mirror.Editor.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-8dea60e48930344c18c4ad12cab9c25f"
+# Starting IL post processing on Assembly-CSharp.dll
+/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/MonoBleedingEdge/bin/mono "/Applications/Unity/Hub/Editor/2020.2.6f1/Unity.app/Contents/Tools/ILPostProcessorRunner/ILPostProcessorRunner.exe" @"/Users/popo/SleepDenly Online/Temp/UnityTempFile-1fc7226bb2eb646829bffb117e890b68"

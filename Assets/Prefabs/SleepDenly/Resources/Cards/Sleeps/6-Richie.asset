@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 310eca569c603436bad59ba2cfa66422, type: 3}
+  m_Name: 6-Richie
+  m_EditorClassIdentifier: 
+  cardName: Richie
+  description: Preschoolers aged 3 - 5 years need 10 - 13 hours of sleep per day.
+  prefab: {fileID: 8090934295256521601, guid: 4f9ea63e6803841feb2f85cb682b9593, type: 3}
+  artwork: {fileID: 21300000, guid: f653623a58fb8407d96161d8ffdbdcd8, type: 3}
+  cardType: 0
+  age: 4
+  ageText: 4 years old
+  requiredSleepHours: 12
+  currentSleepHours: 0
+  hourEffect: 0
+  positive: 0
+  ageRequired: 0
+  skillEffect: 0

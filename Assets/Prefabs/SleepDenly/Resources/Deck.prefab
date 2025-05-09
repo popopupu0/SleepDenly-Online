@@ -1,0 +1,1545 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6278592669648014918
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3057178306279370542}
+  - component: {fileID: 1692416510542125198}
+  - component: {fileID: 4235712598258051266}
+  - component: {fileID: 7422279369211888964}
+  m_Layer: 0
+  m_Name: Deck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3057178306279370542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6278592669648014918}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1090.0234, y: 492.0761, z: -49.44498}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1692416510542125198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6278592669648014918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1384774831, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fsm:
+    dataVersion: 2
+    usedInTemplate: {fileID: 0}
+    name: Deck
+    startState: State 1
+    states:
+    - name: State 1
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 50
+        y: 100
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: State 3
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ArrayShuffle
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: a26c9201
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams:
+        - useVariable: 1
+          name: deckOfCards
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 12
+          objectTypeName: SleepDenly.CardData
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences:
+          - {fileID: 11400000, guid: 3e29b573c448d4840a31ba0966dc7419, type: 2}
+          - {fileID: 11400000, guid: 5df54729f2b154198b99d43a1ce3ae1a, type: 2}
+          - {fileID: 11400000, guid: 8b98b7ef6c41d478184e15a82ee9ff50, type: 2}
+          - {fileID: 11400000, guid: 0c41eb4e647af401084ec729243c6783, type: 2}
+          - {fileID: 11400000, guid: 451d4544d2c4e47ca940658b1d895ac4, type: 2}
+          - {fileID: 11400000, guid: 6b1de7c9a3db84a1e8ae7999d74471c9, type: 2}
+          - {fileID: 11400000, guid: 1bfba250e19bd49e086513b81b382df9, type: 2}
+          - {fileID: 11400000, guid: a31cc20ea87434856bf9606d76d9e567, type: 2}
+          - {fileID: 11400000, guid: 632edbfc345b641c6bad9c403c7d0e54, type: 2}
+          - {fileID: 11400000, guid: 1b048eb744cb8497abaf4d6d845ecaa8, type: 2}
+          - {fileID: 11400000, guid: cb0fdf53106cd40d6be947f292953a31, type: 2}
+          - {fileID: 11400000, guid: f89a7636d146a431985434c3cd0b8977, type: 2}
+          - {fileID: 11400000, guid: 3bbdbaa3318b54f8b95e2bacfd52f63b, type: 2}
+          - {fileID: 11400000, guid: 2753223ca661a4b8681f63a9a103c4ee, type: 2}
+          - {fileID: 11400000, guid: 1af388f68c3184b1b98215b542ab2bcc, type: 2}
+          - {fileID: 11400000, guid: 9c87347696b63485db3cee7563d929e5, type: 2}
+          - {fileID: 11400000, guid: 998b5a01ab0794188a391456feb5a3f4, type: 2}
+          - {fileID: 11400000, guid: 8c118aeccb17e4a45b79189009da796b, type: 2}
+          - {fileID: 11400000, guid: b9c7bbba8f57246b6aa5f57ee059a189, type: 2}
+          - {fileID: 11400000, guid: 592edf5bb8e6945c8b5975d14f5d6418, type: 2}
+          - {fileID: 11400000, guid: 590bd4e732ec34b35b1509436e6ca0b4, type: 2}
+          - {fileID: 11400000, guid: 07c01982f80334295846d92eb8872ddd, type: 2}
+          - {fileID: 11400000, guid: a9aff83f496424ffd85d8f431497464b, type: 2}
+          - {fileID: 11400000, guid: d130129f534ee4dba9cba693cd778de6, type: 2}
+          - {fileID: 11400000, guid: 8f88402069eec4b9da10b035fa52642e, type: 2}
+          - {fileID: 11400000, guid: 275780d4f6bb243fc8d89a9479a0c3e8, type: 2}
+          - {fileID: 11400000, guid: a70237cb4322d4c5b9436b58f21f487d, type: 2}
+          - {fileID: 11400000, guid: 25961bde273d6406cb572236d73c2bf4, type: 2}
+          - {fileID: 11400000, guid: 137aac02d59ec4843807eeb38d7d2a4b, type: 2}
+          - {fileID: 11400000, guid: 1a76e8d51f25c4ac7a51c3e4d2ef9858, type: 2}
+          - {fileID: 11400000, guid: 7eb559a8038b64adf9936b706b8247e2, type: 2}
+          - {fileID: 11400000, guid: c4702f4b23fcc4628b1ecb7230ad3422, type: 2}
+          - {fileID: 11400000, guid: a5f60552978c040fcafe01ed9040cd94, type: 2}
+          - {fileID: 11400000, guid: 9713fe7841ebe42bbb66a7debdb80425, type: 2}
+          - {fileID: 11400000, guid: 2c8da29eab8f84a7aba3808d31dc0344, type: 2}
+          - {fileID: 11400000, guid: 8c8c8e8532248492da0df8b6372df30e, type: 2}
+          - {fileID: 11400000, guid: 4fe2640d19fe144c092a518854cf8e52, type: 2}
+          - {fileID: 11400000, guid: 09699992043644264ab12b6b2fd1ff8f, type: 2}
+          - {fileID: 11400000, guid: 11e06f2ee793d462e93559fc49077ebd, type: 2}
+          - {fileID: 11400000, guid: 6a041e3af78b84ee08cb8a00ec97907f, type: 2}
+          - {fileID: 11400000, guid: b295f22a514054452a800945eeb0864c, type: 2}
+          - {fileID: 11400000, guid: 9d0183d87347a4dfe9e412b9f9596e13, type: 2}
+          - {fileID: 11400000, guid: bfb35f3ab6e5d4934a64d99607d8b28f, type: 2}
+          - {fileID: 11400000, guid: d1174c9eb208d470a899917cba909107, type: 2}
+          - {fileID: 11400000, guid: 225f08efbfc8c46e4ac5f25063260b38, type: 2}
+          - {fileID: 11400000, guid: f68372d2a740f4362991fdfc131286a1, type: 2}
+          - {fileID: 11400000, guid: 62f3aa6ef01eb4b379046654eb3e7d7e, type: 2}
+          - {fileID: 11400000, guid: 242c994af7e094f83884dbaff787630b, type: 2}
+          - {fileID: 11400000, guid: 303588f99c2b74d10bc253b8b4d27c91, type: 2}
+          - {fileID: 11400000, guid: 1945ee00419c04a678f823d5745d1400, type: 2}
+          - {fileID: 11400000, guid: 90f512e8d3cb84cf89b2dad995505d3f, type: 2}
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 290000001000000010000000
+        paramName:
+        - array
+        - startIndex
+        - shufflingRange
+        paramDataPos: 000000000000000001000000
+        paramByteDataSize: 000000000000000000000000
+    - name: State 2
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 52.859375
+        y: 319.14844
+        width: 131
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: resetPlayerArray
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: State 5
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: loop
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: State 6
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ArrayGet
+        - HutongGames.PlayMaker.Actions.ArrayAdd
+        - HutongGames.PlayMaker.Actions.ArrayGetNext
+        customNames:
+        - 
+        - 
+        - 
+        actionEnabled: 010101
+        actionIsOpen: 010101
+        actionStartIndex: 000000000500000007000000
+        actionHashCodes: 6ba59301978a9b033df26a04
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams:
+        - variableName: topCard
+          objectType: SleepDenly.CardData
+          useVariable: 1
+          type: 12
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        - variableName: topCard
+          objectType: SleepDenly.CardData
+          useVariable: 1
+          type: 12
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        - variableName: currentPlayer
+          objectType: UnityEngine.GameObject
+          useVariable: 1
+          type: 3
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams:
+        - useVariable: 1
+          name: deckOfCards
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 12
+          objectTypeName: SleepDenly.CardData
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences:
+          - {fileID: 11400000, guid: 3e29b573c448d4840a31ba0966dc7419, type: 2}
+          - {fileID: 11400000, guid: 5df54729f2b154198b99d43a1ce3ae1a, type: 2}
+          - {fileID: 11400000, guid: 8b98b7ef6c41d478184e15a82ee9ff50, type: 2}
+          - {fileID: 11400000, guid: 0c41eb4e647af401084ec729243c6783, type: 2}
+          - {fileID: 11400000, guid: 451d4544d2c4e47ca940658b1d895ac4, type: 2}
+          - {fileID: 11400000, guid: 6b1de7c9a3db84a1e8ae7999d74471c9, type: 2}
+          - {fileID: 11400000, guid: 1bfba250e19bd49e086513b81b382df9, type: 2}
+          - {fileID: 11400000, guid: a31cc20ea87434856bf9606d76d9e567, type: 2}
+          - {fileID: 11400000, guid: 632edbfc345b641c6bad9c403c7d0e54, type: 2}
+          - {fileID: 11400000, guid: 1b048eb744cb8497abaf4d6d845ecaa8, type: 2}
+          - {fileID: 11400000, guid: cb0fdf53106cd40d6be947f292953a31, type: 2}
+          - {fileID: 11400000, guid: f89a7636d146a431985434c3cd0b8977, type: 2}
+          - {fileID: 11400000, guid: 3bbdbaa3318b54f8b95e2bacfd52f63b, type: 2}
+          - {fileID: 11400000, guid: 2753223ca661a4b8681f63a9a103c4ee, type: 2}
+          - {fileID: 11400000, guid: 1af388f68c3184b1b98215b542ab2bcc, type: 2}
+          - {fileID: 11400000, guid: 9c87347696b63485db3cee7563d929e5, type: 2}
+          - {fileID: 11400000, guid: 998b5a01ab0794188a391456feb5a3f4, type: 2}
+          - {fileID: 11400000, guid: 8c118aeccb17e4a45b79189009da796b, type: 2}
+          - {fileID: 11400000, guid: b9c7bbba8f57246b6aa5f57ee059a189, type: 2}
+          - {fileID: 11400000, guid: 592edf5bb8e6945c8b5975d14f5d6418, type: 2}
+          - {fileID: 11400000, guid: 590bd4e732ec34b35b1509436e6ca0b4, type: 2}
+          - {fileID: 11400000, guid: 07c01982f80334295846d92eb8872ddd, type: 2}
+          - {fileID: 11400000, guid: a9aff83f496424ffd85d8f431497464b, type: 2}
+          - {fileID: 11400000, guid: d130129f534ee4dba9cba693cd778de6, type: 2}
+          - {fileID: 11400000, guid: 8f88402069eec4b9da10b035fa52642e, type: 2}
+          - {fileID: 11400000, guid: 275780d4f6bb243fc8d89a9479a0c3e8, type: 2}
+          - {fileID: 11400000, guid: a70237cb4322d4c5b9436b58f21f487d, type: 2}
+          - {fileID: 11400000, guid: 25961bde273d6406cb572236d73c2bf4, type: 2}
+          - {fileID: 11400000, guid: 137aac02d59ec4843807eeb38d7d2a4b, type: 2}
+          - {fileID: 11400000, guid: 1a76e8d51f25c4ac7a51c3e4d2ef9858, type: 2}
+          - {fileID: 11400000, guid: 7eb559a8038b64adf9936b706b8247e2, type: 2}
+          - {fileID: 11400000, guid: c4702f4b23fcc4628b1ecb7230ad3422, type: 2}
+          - {fileID: 11400000, guid: a5f60552978c040fcafe01ed9040cd94, type: 2}
+          - {fileID: 11400000, guid: 9713fe7841ebe42bbb66a7debdb80425, type: 2}
+          - {fileID: 11400000, guid: 2c8da29eab8f84a7aba3808d31dc0344, type: 2}
+          - {fileID: 11400000, guid: 8c8c8e8532248492da0df8b6372df30e, type: 2}
+          - {fileID: 11400000, guid: 4fe2640d19fe144c092a518854cf8e52, type: 2}
+          - {fileID: 11400000, guid: 09699992043644264ab12b6b2fd1ff8f, type: 2}
+          - {fileID: 11400000, guid: 11e06f2ee793d462e93559fc49077ebd, type: 2}
+          - {fileID: 11400000, guid: 6a041e3af78b84ee08cb8a00ec97907f, type: 2}
+          - {fileID: 11400000, guid: b295f22a514054452a800945eeb0864c, type: 2}
+          - {fileID: 11400000, guid: 9d0183d87347a4dfe9e412b9f9596e13, type: 2}
+          - {fileID: 11400000, guid: bfb35f3ab6e5d4934a64d99607d8b28f, type: 2}
+          - {fileID: 11400000, guid: d1174c9eb208d470a899917cba909107, type: 2}
+          - {fileID: 11400000, guid: 225f08efbfc8c46e4ac5f25063260b38, type: 2}
+          - {fileID: 11400000, guid: f68372d2a740f4362991fdfc131286a1, type: 2}
+          - {fileID: 11400000, guid: 62f3aa6ef01eb4b379046654eb3e7d7e, type: 2}
+          - {fileID: 11400000, guid: 242c994af7e094f83884dbaff787630b, type: 2}
+          - {fileID: 11400000, guid: 303588f99c2b74d10bc253b8b4d27c91, type: 2}
+          - {fileID: 11400000, guid: 1945ee00419c04a678f823d5745d1400, type: 2}
+          - {fileID: 11400000, guid: 90f512e8d3cb84cf89b2dad995505d3f, type: 2}
+        - useVariable: 1
+          name: cardsInHand_player1
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 12
+          objectTypeName: SleepDenly.CardData
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences: []
+        - useVariable: 1
+          name: players
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 3
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences:
+          - {fileID: 0}
+          - {fileID: 0}
+          - {fileID: 0}
+          - {fileID: 0}
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams:
+        - useVariable: 1
+          name: reset
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - loop
+        - resetPlayerArray
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 290000001000000027000000010000001700000029000000270000002900000010000000100000001700000011000000170000002700000010000000
+        paramName:
+        - array
+        - index
+        - storeValue
+        - everyFrame
+        - indexOutOfRange
+        - array
+        - value
+        - array
+        - startIndex
+        - endIndex
+        - loopEvent
+        - resetFlag
+        - finishedEvent
+        - result
+        - currentIndex
+        paramDataPos: 000000000000000000000000000000000000000001000000010000000200000001000000020000000100000000000000020000000200000003000000
+        paramByteDataSize: 000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    - name: State 3
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 51.125
+        y: 184.55469
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: State 4
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Pun2.Actions.PunGetPlayersInRoom
+        - HutongGames.PlayMaker.Actions.Wait
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 84a1a60448c01101
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 5
+        fsmIntParams:
+        - useVariable: 1
+          name: playerCount
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        byteData: 0000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 01000000
+        customTypeNames:
+        - HutongGames.PlayMaker.Pun2.Actions.PunActionHeader
+        paramDataType: 1000000028000000010000000f0000001700000001000000
+        paramName:
+        - playerCount
+        - header
+        - NetworkOperationPending
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 000000000000000000000000000000000000000001000000
+        paramByteDataSize: 000000000000000001000000000000000000000001000000
+    - name: State 4
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 52
+        y: 251
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: State 2
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ArraySet
+        - HutongGames.PlayMaker.Actions.ArraySet
+        - HutongGames.PlayMaker.Actions.ArraySet
+        - HutongGames.PlayMaker.Actions.ArraySet
+        - HutongGames.PlayMaker.Actions.SetIntValue
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 0101010101
+        actionIsOpen: 0101010101
+        actionStartIndex: 00000000050000000a0000000f00000014000000
+        actionHashCodes: 6ba593016ba593016ba593016ba59301603dd905
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams:
+        - variableName: player1
+          objectType: UnityEngine.GameObject
+          useVariable: 1
+          type: 3
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        - variableName: player2
+          objectType: UnityEngine.GameObject
+          useVariable: 1
+          type: 3
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        - variableName: player3
+          objectType: UnityEngine.GameObject
+          useVariable: 1
+          type: 3
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        - variableName: player4
+          objectType: UnityEngine.GameObject
+          useVariable: 1
+          type: 3
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams:
+        - useVariable: 1
+          name: players
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 3
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences:
+          - {fileID: 0}
+          - {fileID: 0}
+          - {fileID: 0}
+          - {fileID: 0}
+        - useVariable: 1
+          name: players
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 3
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences:
+          - {fileID: 0}
+          - {fileID: 0}
+          - {fileID: 0}
+          - {fileID: 0}
+        - useVariable: 1
+          name: players
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 3
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences:
+          - {fileID: 0}
+          - {fileID: 0}
+          - {fileID: 0}
+          - {fileID: 0}
+        - useVariable: 1
+          name: players
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 3
+          objectTypeName: UnityEngine.Object
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences:
+          - {fileID: 0}
+          - {fileID: 0}
+          - {fileID: 0}
+          - {fileID: 0}
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 2
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 3
+        - useVariable: 1
+          name: playerHandIndex
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - 
+        - 
+        - 
+        byteData: 0000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 2900000010000000270000000100000017000000290000001000000027000000010000001700000029000000100000002700000001000000170000002900000010000000270000000100000017000000100000001000000001000000
+        paramName:
+        - array
+        - index
+        - value
+        - everyFrame
+        - indexOutOfRange
+        - array
+        - index
+        - value
+        - everyFrame
+        - indexOutOfRange
+        - array
+        - index
+        - value
+        - everyFrame
+        - indexOutOfRange
+        - array
+        - index
+        - value
+        - everyFrame
+        - indexOutOfRange
+        - intVariable
+        - intValue
+        - everyFrame
+        paramDataPos: 0000000000000000000000000000000000000000010000000100000001000000010000000100000002000000020000000200000002000000020000000300000003000000030000000300000003000000040000000500000004000000
+        paramByteDataSize: 0000000000000000000000000100000000000000000000000000000000000000010000000000000000000000000000000000000001000000000000000000000000000000000000000100000000000000000000000000000001000000
+    - name: State 5
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 76
+        y: 421
+        width: 143
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: State 2
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: dealing is complete
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: State 7
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.IntSubtract
+        - HutongGames.PlayMaker.Actions.SetBoolValue
+        - HutongGames.PlayMaker.Actions.IntAdd
+        - HutongGames.PlayMaker.Actions.IntCompare
+        customNames:
+        - 
+        - 
+        - 
+        - 
+        actionEnabled: 01010101
+        actionIsOpen: 01010101
+        actionStartIndex: 0000000004000000070000000a000000
+        actionHashCodes: 31e5da0227fbe103603dd90509faa102
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: cardsToDeal
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 5
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 1
+          name: playerHandIndex
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 1
+          name: cardsToDeal
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 5
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams:
+        - useVariable: 1
+          name: reset
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - dealing is complete
+        - dealing is complete
+        - 
+        byteData: 0000000000
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 10000000100000000100000001000000110000001100000001000000100000001000000001000000100000001000000017000000170000001700000001000000
+        paramName:
+        - intVariable
+        - subtract
+        - everyFrame
+        - perSecond
+        - boolVariable
+        - boolValue
+        - everyFrame
+        - intVariable
+        - add
+        - everyFrame
+        - integer1
+        - integer2
+        - equal
+        - lessThan
+        - greaterThan
+        - everyFrame
+        paramDataPos: 00000000010000000000000001000000000000000100000002000000020000000300000003000000040000000500000000000000010000000200000004000000
+        paramByteDataSize: 00000000000000000100000001000000000000000000000001000000000000000000000001000000000000000000000000000000000000000000000001000000
+    - name: State 6
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 353
+        y: 333
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: State 2
+        linkStyle: 0
+        linkConstraint: 0
+        linkTarget: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetFsmArrayItem
+        - HutongGames.PlayMaker.Actions.ArrayDeleteAt
+        customNames:
+        - 
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000009000000
+        actionHashCodes: 35338f05a790bd03
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 1
+          gameObject:
+            useVariable: 1
+            name: currentPlayer
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: cardsInHand_FSM_Variable_String
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: cardsInHand
+        - useVariable: 1
+          name: cardsInHand_FSM_Variable_String
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: cardsInHand
+        fsmObjectParams: []
+        fsmVarParams:
+        - variableName: topCard
+          objectType: SleepDenly.CardData
+          useVariable: 1
+          type: 12
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams:
+        - useVariable: 1
+          name: deckOfCards
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          type: 12
+          objectTypeName: SleepDenly.CardData
+          floatValues: []
+          intValues: 
+          boolValues: 
+          stringValues: []
+          vector4Values: []
+          objectReferences:
+          - {fileID: 11400000, guid: 3e29b573c448d4840a31ba0966dc7419, type: 2}
+          - {fileID: 11400000, guid: 5df54729f2b154198b99d43a1ce3ae1a, type: 2}
+          - {fileID: 11400000, guid: 8b98b7ef6c41d478184e15a82ee9ff50, type: 2}
+          - {fileID: 11400000, guid: 0c41eb4e647af401084ec729243c6783, type: 2}
+          - {fileID: 11400000, guid: 451d4544d2c4e47ca940658b1d895ac4, type: 2}
+          - {fileID: 11400000, guid: 6b1de7c9a3db84a1e8ae7999d74471c9, type: 2}
+          - {fileID: 11400000, guid: 1bfba250e19bd49e086513b81b382df9, type: 2}
+          - {fileID: 11400000, guid: a31cc20ea87434856bf9606d76d9e567, type: 2}
+          - {fileID: 11400000, guid: 632edbfc345b641c6bad9c403c7d0e54, type: 2}
+          - {fileID: 11400000, guid: 1b048eb744cb8497abaf4d6d845ecaa8, type: 2}
+          - {fileID: 11400000, guid: cb0fdf53106cd40d6be947f292953a31, type: 2}
+          - {fileID: 11400000, guid: f89a7636d146a431985434c3cd0b8977, type: 2}
+          - {fileID: 11400000, guid: 3bbdbaa3318b54f8b95e2bacfd52f63b, type: 2}
+          - {fileID: 11400000, guid: 2753223ca661a4b8681f63a9a103c4ee, type: 2}
+          - {fileID: 11400000, guid: 1af388f68c3184b1b98215b542ab2bcc, type: 2}
+          - {fileID: 11400000, guid: 9c87347696b63485db3cee7563d929e5, type: 2}
+          - {fileID: 11400000, guid: 998b5a01ab0794188a391456feb5a3f4, type: 2}
+          - {fileID: 11400000, guid: 8c118aeccb17e4a45b79189009da796b, type: 2}
+          - {fileID: 11400000, guid: b9c7bbba8f57246b6aa5f57ee059a189, type: 2}
+          - {fileID: 11400000, guid: 592edf5bb8e6945c8b5975d14f5d6418, type: 2}
+          - {fileID: 11400000, guid: 590bd4e732ec34b35b1509436e6ca0b4, type: 2}
+          - {fileID: 11400000, guid: 07c01982f80334295846d92eb8872ddd, type: 2}
+          - {fileID: 11400000, guid: a9aff83f496424ffd85d8f431497464b, type: 2}
+          - {fileID: 11400000, guid: d130129f534ee4dba9cba693cd778de6, type: 2}
+          - {fileID: 11400000, guid: 8f88402069eec4b9da10b035fa52642e, type: 2}
+          - {fileID: 11400000, guid: 275780d4f6bb243fc8d89a9479a0c3e8, type: 2}
+          - {fileID: 11400000, guid: a70237cb4322d4c5b9436b58f21f487d, type: 2}
+          - {fileID: 11400000, guid: 25961bde273d6406cb572236d73c2bf4, type: 2}
+          - {fileID: 11400000, guid: 137aac02d59ec4843807eeb38d7d2a4b, type: 2}
+          - {fileID: 11400000, guid: 1a76e8d51f25c4ac7a51c3e4d2ef9858, type: 2}
+          - {fileID: 11400000, guid: 7eb559a8038b64adf9936b706b8247e2, type: 2}
+          - {fileID: 11400000, guid: c4702f4b23fcc4628b1ecb7230ad3422, type: 2}
+          - {fileID: 11400000, guid: a5f60552978c040fcafe01ed9040cd94, type: 2}
+          - {fileID: 11400000, guid: 9713fe7841ebe42bbb66a7debdb80425, type: 2}
+          - {fileID: 11400000, guid: 2c8da29eab8f84a7aba3808d31dc0344, type: 2}
+          - {fileID: 11400000, guid: 8c8c8e8532248492da0df8b6372df30e, type: 2}
+          - {fileID: 11400000, guid: 4fe2640d19fe144c092a518854cf8e52, type: 2}
+          - {fileID: 11400000, guid: 09699992043644264ab12b6b2fd1ff8f, type: 2}
+          - {fileID: 11400000, guid: 11e06f2ee793d462e93559fc49077ebd, type: 2}
+          - {fileID: 11400000, guid: 6a041e3af78b84ee08cb8a00ec97907f, type: 2}
+          - {fileID: 11400000, guid: b295f22a514054452a800945eeb0864c, type: 2}
+          - {fileID: 11400000, guid: 9d0183d87347a4dfe9e412b9f9596e13, type: 2}
+          - {fileID: 11400000, guid: bfb35f3ab6e5d4934a64d99607d8b28f, type: 2}
+          - {fileID: 11400000, guid: d1174c9eb208d470a899917cba909107, type: 2}
+          - {fileID: 11400000, guid: 225f08efbfc8c46e4ac5f25063260b38, type: 2}
+          - {fileID: 11400000, guid: f68372d2a740f4362991fdfc131286a1, type: 2}
+          - {fileID: 11400000, guid: 62f3aa6ef01eb4b379046654eb3e7d7e, type: 2}
+          - {fileID: 11400000, guid: 242c994af7e094f83884dbaff787630b, type: 2}
+          - {fileID: 11400000, guid: 303588f99c2b74d10bc253b8b4d27c91, type: 2}
+          - {fileID: 11400000, guid: 1945ee00419c04a678f823d5745d1400, type: 2}
+          - {fileID: 11400000, guid: 90f512e8d3cb84cf89b2dad995505d3f, type: 2}
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: playerHandIndex
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams:
+        - 
+        - 
+        - 
+        - 
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 140000001200000012000000100000002700000001000000170000001700000017000000290000001000000017000000
+        paramName:
+        - gameObject
+        - fsmName
+        - variableName
+        - index
+        - value
+        - everyFrame
+        - indexOutOfRange
+        - fsmNotFound
+        - variableNotFound
+        - array
+        - index
+        - indexOutOfRangeEvent
+        paramDataPos: 000000000000000001000000000000000000000000000000000000000100000002000000000000000100000003000000
+        paramByteDataSize: 000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000
+    - name: State 7
+      description: 
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 311
+        y: 479
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames: []
+        customNames: []
+        actionEnabled: 
+        actionIsOpen: 
+        actionStartIndex: 
+        actionHashCodes: 
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 
+        paramName: []
+        paramDataPos: 
+        paramByteDataSize: 
+    events:
+    - name: outOfArray
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: FINISHED
+      isSystemEvent: 1
+      isGlobal: 0
+    - name: resetPlayerArray
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: loop
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: dealing is complete
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: takeCard
+      isSystemEvent: 0
+      isGlobal: 1
+    globalTransitions: []
+    variables:
+      floatVariables:
+      - useVariable: 1
+        name: 
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: 
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      intVariables:
+      - useVariable: 1
+        name: dealCount
+        tooltip: 
+        showInInspector: 1
+        networkSync: 0
+        value: 5
+      - useVariable: 1
+        name: playerCount
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      - useVariable: 1
+        name: cardsToDeal
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 5
+      - useVariable: 1
+        name: playerHandIndex
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      boolVariables:
+      - useVariable: 1
+        name: reset
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 0
+      stringVariables:
+      - useVariable: 1
+        name: cardsInHand_FSM_Variable_String
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: cardsInHand
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables:
+      - useVariable: 1
+        name: currentPlayer
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
+      objectVariables:
+      - useVariable: 1
+        name: topCard
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        typeName: SleepDenly.CardData
+        value: {fileID: 0}
+      - useVariable: 1
+        name: 
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        typeName: 
+        value: {fileID: 0}
+      materialVariables: []
+      textureVariables: []
+      arrayVariables:
+      - useVariable: 1
+        name: deckOfCards
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        type: 12
+        objectTypeName: SleepDenly.CardData
+        floatValues: []
+        intValues: 
+        boolValues: 
+        stringValues: []
+        vector4Values: []
+        objectReferences:
+        - {fileID: 11400000, guid: 3e29b573c448d4840a31ba0966dc7419, type: 2}
+        - {fileID: 11400000, guid: 5df54729f2b154198b99d43a1ce3ae1a, type: 2}
+        - {fileID: 11400000, guid: 8b98b7ef6c41d478184e15a82ee9ff50, type: 2}
+        - {fileID: 11400000, guid: 0c41eb4e647af401084ec729243c6783, type: 2}
+        - {fileID: 11400000, guid: 451d4544d2c4e47ca940658b1d895ac4, type: 2}
+        - {fileID: 11400000, guid: 6b1de7c9a3db84a1e8ae7999d74471c9, type: 2}
+        - {fileID: 11400000, guid: 1bfba250e19bd49e086513b81b382df9, type: 2}
+        - {fileID: 11400000, guid: a31cc20ea87434856bf9606d76d9e567, type: 2}
+        - {fileID: 11400000, guid: 632edbfc345b641c6bad9c403c7d0e54, type: 2}
+        - {fileID: 11400000, guid: 1b048eb744cb8497abaf4d6d845ecaa8, type: 2}
+        - {fileID: 11400000, guid: cb0fdf53106cd40d6be947f292953a31, type: 2}
+        - {fileID: 11400000, guid: f89a7636d146a431985434c3cd0b8977, type: 2}
+        - {fileID: 11400000, guid: 3bbdbaa3318b54f8b95e2bacfd52f63b, type: 2}
+        - {fileID: 11400000, guid: 2753223ca661a4b8681f63a9a103c4ee, type: 2}
+        - {fileID: 11400000, guid: 1af388f68c3184b1b98215b542ab2bcc, type: 2}
+        - {fileID: 11400000, guid: 9c87347696b63485db3cee7563d929e5, type: 2}
+        - {fileID: 11400000, guid: 998b5a01ab0794188a391456feb5a3f4, type: 2}
+        - {fileID: 11400000, guid: 8c118aeccb17e4a45b79189009da796b, type: 2}
+        - {fileID: 11400000, guid: b9c7bbba8f57246b6aa5f57ee059a189, type: 2}
+        - {fileID: 11400000, guid: 592edf5bb8e6945c8b5975d14f5d6418, type: 2}
+        - {fileID: 11400000, guid: 590bd4e732ec34b35b1509436e6ca0b4, type: 2}
+        - {fileID: 11400000, guid: 07c01982f80334295846d92eb8872ddd, type: 2}
+        - {fileID: 11400000, guid: a9aff83f496424ffd85d8f431497464b, type: 2}
+        - {fileID: 11400000, guid: d130129f534ee4dba9cba693cd778de6, type: 2}
+        - {fileID: 11400000, guid: 8f88402069eec4b9da10b035fa52642e, type: 2}
+        - {fileID: 11400000, guid: 275780d4f6bb243fc8d89a9479a0c3e8, type: 2}
+        - {fileID: 11400000, guid: a70237cb4322d4c5b9436b58f21f487d, type: 2}
+        - {fileID: 11400000, guid: 25961bde273d6406cb572236d73c2bf4, type: 2}
+        - {fileID: 11400000, guid: 137aac02d59ec4843807eeb38d7d2a4b, type: 2}
+        - {fileID: 11400000, guid: 1a76e8d51f25c4ac7a51c3e4d2ef9858, type: 2}
+        - {fileID: 11400000, guid: 7eb559a8038b64adf9936b706b8247e2, type: 2}
+        - {fileID: 11400000, guid: c4702f4b23fcc4628b1ecb7230ad3422, type: 2}
+        - {fileID: 11400000, guid: a5f60552978c040fcafe01ed9040cd94, type: 2}
+        - {fileID: 11400000, guid: 9713fe7841ebe42bbb66a7debdb80425, type: 2}
+        - {fileID: 11400000, guid: 2c8da29eab8f84a7aba3808d31dc0344, type: 2}
+        - {fileID: 11400000, guid: 8c8c8e8532248492da0df8b6372df30e, type: 2}
+        - {fileID: 11400000, guid: 4fe2640d19fe144c092a518854cf8e52, type: 2}
+        - {fileID: 11400000, guid: 09699992043644264ab12b6b2fd1ff8f, type: 2}
+        - {fileID: 11400000, guid: 11e06f2ee793d462e93559fc49077ebd, type: 2}
+        - {fileID: 11400000, guid: 6a041e3af78b84ee08cb8a00ec97907f, type: 2}
+        - {fileID: 11400000, guid: b295f22a514054452a800945eeb0864c, type: 2}
+        - {fileID: 11400000, guid: 9d0183d87347a4dfe9e412b9f9596e13, type: 2}
+        - {fileID: 11400000, guid: bfb35f3ab6e5d4934a64d99607d8b28f, type: 2}
+        - {fileID: 11400000, guid: d1174c9eb208d470a899917cba909107, type: 2}
+        - {fileID: 11400000, guid: 225f08efbfc8c46e4ac5f25063260b38, type: 2}
+        - {fileID: 11400000, guid: f68372d2a740f4362991fdfc131286a1, type: 2}
+        - {fileID: 11400000, guid: 90f512e8d3cb84cf89b2dad995505d3f, type: 2}
+      - useVariable: 1
+        name: cardsInHand_player1
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        type: 12
+        objectTypeName: SleepDenly.CardData
+        floatValues: []
+        intValues: 
+        boolValues: 
+        stringValues: []
+        vector4Values: []
+        objectReferences: []
+      - useVariable: 1
+        name: players
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        type: 3
+        objectTypeName: UnityEngine.Object
+        floatValues: []
+        intValues: 
+        boolValues: 
+        stringValues: []
+        vector4Values: []
+        objectReferences:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    description: 
+    docUrl: 
+    showStateLabel: 0
+    maxLoopCount: 0
+    watermark: 
+    password: 
+    locked: 0
+    manualUpdate: 0
+    outVariableIndices: 
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    OutputEvents: []
+    RestartOnEnable: 1
+    ResetVariablesOnEnable: 0
+    EnableDebugFlow: 0
+    EnableBreakpoints: 1
+    editorFlags: 225
+    activeStateName: State 3
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleLateUpdate: 0
+    handleApplicationEvents: 0
+    handleUiEvents: 0
+    handleLegacyNetworking: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0
+  fsmTemplate: {fileID: 0}
+  eventHandlerComponentsAdded: 1
+--- !u!114 &4235712598258051266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6278592669648014918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a21220299d849abaffd33cc04a657b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7422279369211888964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6278592669648014918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

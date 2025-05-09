@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4314715789331123784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7882910415619349234}
+  - component: {fileID: -7558051682354344712}
+  - component: {fileID: 2234412407701241268}
+  - component: {fileID: 4037169899724174201}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7882910415619349234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314715789331123784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 708.41266, y: 348.56995, z: -235.20146}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7558051682354344712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314715789331123784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f6f2e46e7f3f8147be5e69ba5ade71f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  Card1: {fileID: 6698809748210893588, guid: c61ebb3b1a3c0674ab15fcc3d49ae24b, type: 3}
+  Card2: {fileID: 7251653076908780525, guid: a0e59473d25101a4292da67138db22d0, type: 3}
+  Card3: {fileID: 226515759030702247, guid: 16c7fffb8b1d94985bf733f10491634d, type: 3}
+  Card4: {fileID: 1783645482551924821, guid: 341fb3893577d4b3084137a3acbebb25, type: 3}
+  Card5: {fileID: 9053332424294310735, guid: 98cd41527250341d9a13e8a5ca565f67, type: 3}
+  Card6: {fileID: 8399869897427587187, guid: 1ee3cba1f0f234f038783d04548afb11, type: 3}
+  Card7: {fileID: 3756950312056238278, guid: 346da2965119a4390bba15fb962cd7cc, type: 3}
+  Card8: {fileID: 4969550636660125504, guid: 89adc695105494413bfd5301b89f4160, type: 3}
+  Card9: {fileID: 2801648439150528580, guid: 022400c698b5143e993daa7b3676c099, type: 3}
+  Card10: {fileID: 6458931231376024762, guid: dc6e3383c0a35493ebc3601363f1d650, type: 3}
+  Card11: {fileID: 2343975880522046313, guid: 84b59eca2252044feb70718af93dd1c3, type: 3}
+  Card12: {fileID: 6809649513369121173, guid: adbe54ad552184393b5326ea13fa0026, type: 3}
+  Card13: {fileID: 6809649513369121173, guid: 0a2f52010db7c4c70a9e3547efb8f5c7, type: 3}
+  Card14: {fileID: 6809649513369121173, guid: 5ad4d5bf41e5a49cb938d6857b64a01b, type: 3}
+  Card15: {fileID: 6809649513369121173, guid: 3734be3b3af6b484faa3e6f2f2ae7e0f, type: 3}
+  Card16: {fileID: 6809649513369121173, guid: decee330ca5f8498fa0e25cc2777cf6b, type: 3}
+  Card17: {fileID: 6809649513369121173, guid: c5f7ab48a3f334ba99006b6d3e2eb203, type: 3}
+  Card18: {fileID: 6809649513369121173, guid: 8291944d8df494f198f8f4b07c3cd370, type: 3}
+  Card19: {fileID: 6809649513369121173, guid: 71ea7c4b5ccb44be7b9aa5e35f8554fd, type: 3}
+  Card20: {fileID: 6809649513369121173, guid: e7532c6bf44174d4fbf4413b1b9c2d70, type: 3}
+  Card21: {fileID: 6809649513369121173, guid: 9c38aa0f8094441f091c2b21c4f93ab8, type: 3}
+  Card22: {fileID: 6809649513369121173, guid: c97ce7fd67d9046debe954956ea5a7b1, type: 3}
+  Card23: {fileID: 6809649513369121173, guid: 6efbfad3222de4cce9b541b401479a0a, type: 3}
+  Card24: {fileID: 6809649513369121173, guid: d80239a28621449eca5635ce9c1a48ee, type: 3}
+  Card25: {fileID: 6809649513369121173, guid: e1782f7cc62484ea294128cb3774851c, type: 3}
+  Card26: {fileID: 6809649513369121173, guid: 20f5b8e2c9959432c9879beddc433d9c, type: 3}
+  Card27: {fileID: 6809649513369121173, guid: 53f6dc6da39a9440aa57b8aa30b10e90, type: 3}
+  Card28: {fileID: 6809649513369121173, guid: 01d37afbd9c0d40bf9640015df14ac7e, type: 3}
+  Card29: {fileID: 6809649513369121173, guid: e6b029f42a91547378db5699266c3fdb, type: 3}
+  Card30: {fileID: 6809649513369121173, guid: cc92a7cdb800b4e2588de453cb4cf81c, type: 3}
+  Card31: {fileID: 6809649513369121173, guid: 564b467add8c044dab7ab46c3ede07c9, type: 3}
+  Card32: {fileID: 6809649513369121173, guid: 6753fe6ce9f5f4a48a5c18789cc728d4, type: 3}
+  Card33: {fileID: 6809649513369121173, guid: 5dcdb05df59bf4a08a138bf9b1b650d0, type: 3}
+  Card34: {fileID: 6809649513369121173, guid: 560beb1e6c8324cc0905a98aa9f098df, type: 3}
+  Card35: {fileID: 6809649513369121173, guid: 1e44fed191c834cdbb350f22e0a82ba0, type: 3}
+  Card36: {fileID: 6809649513369121173, guid: fa9a1193b575a453daa4620321c2f131, type: 3}
+  Card37: {fileID: 6809649513369121173, guid: 2b0a052c7a04d4065804d2e089768d55, type: 3}
+  Card38: {fileID: 6809649513369121173, guid: 6b72cd969b1d04e1186e6ac7dad495a3, type: 3}
+  Card39: {fileID: 6809649513369121173, guid: 8133545c961d44052a05baf2f401e028, type: 3}
+  Card40: {fileID: 6809649513369121173, guid: 7d179a99cd11b49028849284e31e0638, type: 3}
+  Card41: {fileID: 6809649513369121173, guid: f7b8bb913fffa4a5ba8ba3b333dd9873, type: 3}
+  Card42: {fileID: 6809649513369121173, guid: a68ba7a7d7e814720b3855ddb2a7f6e9, type: 3}
+  Card43: {fileID: 6809649513369121173, guid: 1a518c8fa4c0d4ff7b802ae9b8ffb6ae, type: 3}
+  Card44: {fileID: 6809649513369121173, guid: daa2df3a45f824b879739f40121c0936, type: 3}
+  Card45: {fileID: 6809649513369121173, guid: e67c8f8299fc148648b3c73fd85c1dc8, type: 3}
+  Card46: {fileID: 6809649513369121173, guid: ee4102693cb964b80b9801433a13ad82, type: 3}
+  PlayerArea: {fileID: 0}
+  EnemyArea: {fileID: 0}
+  DropZone11: {fileID: 0}
+  DropZone12: {fileID: 0}
+  DropZone13: {fileID: 0}
+  DropZone21: {fileID: 0}
+  DropZone22: {fileID: 0}
+  DropZone23: {fileID: 0}
+--- !u!114 &2234412407701241268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314715789331123784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b91ecbcc199f4492b9a91e820070131, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneId: 0
+  serverOnly: 0
+  visible: 0
+  m_AssetId: 8d4944eff2868f64cbd26a0a4d70579e
+  hasSpawned: 0
+--- !u!114 &4037169899724174201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314715789331123784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f74aedd71d9a4f55b3ce499326d45fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  clientAuthority: 1
+  sendInterval: 0.05
+  syncPosition: 1
+  syncRotation: 1
+  syncScale: 0
+  interpolatePosition: 1
+  interpolateRotation: 1
+  interpolateScale: 1
+  bufferTimeMultiplier: 3
+  bufferSizeLimit: 64
+  catchupThreshold: 6
+  catchupMultiplier: 0.1
+  showGizmos: 0
+  showOverlay: 0
+  overlayColor: {r: 0, g: 0, b: 0, a: 0.5}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 310eca569c603436bad59ba2cfa66422, type: 3}
+  m_Name: 1-Oraphan
+  m_EditorClassIdentifier: 
+  cardName: Oraphan
+  description: Infants aged 4 - 11 months need 12 - 15 hours of sleep per day.
+  prefab: {fileID: 8090934295256521601, guid: 87879ae5af2874a1da1b5669fe1765ba, type: 3}
+  artwork: {fileID: 21300000, guid: a555a55b9ce7d4a8d86bf3859172bf5c, type: 3}
+  cardType: 0
+  age: 0
+  ageText: 11 months old
+  requiredSleepHours: 12
+  currentSleepHours: 0
+  hourEffect: 0
+  positive: 0
+  ageRequired: 0
+  skillEffect: 0

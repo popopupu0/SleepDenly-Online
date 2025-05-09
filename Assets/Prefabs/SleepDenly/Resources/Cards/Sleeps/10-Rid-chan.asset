@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 310eca569c603436bad59ba2cfa66422, type: 3}
+  m_Name: 10-Rid-chan
+  m_EditorClassIdentifier: 
+  cardName: Rid-chan
+  description: Children aged 6 - 13 years need 9 - 11 hours of sleep per day.
+  prefab: {fileID: 8090934295256521601, guid: f06da12e156264c15be4f7e72fb9ab46, type: 3}
+  artwork: {fileID: 21300000, guid: 5077c3315a9634d14b49eb41205cb0b9, type: 3}
+  cardType: 0
+  age: 11
+  ageText: 11 years old
+  requiredSleepHours: 9
+  currentSleepHours: 0
+  hourEffect: 0
+  positive: 0
+  ageRequired: 0
+  skillEffect: 0
